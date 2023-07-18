@@ -14,7 +14,8 @@ public class RedisConfiguration {
     JedisConnectionFactory jedisConnectionFactory() {
         return new JedisConnectionFactory();
     }
-// TODO:: commit 3 change
+// TODO:: commit 3->5 change
+    // TODO:: commit 4 change
     @Bean
     public RedisTemplate<String, Object> redisTemplate() {
         RedisTemplate<String, Object> template = new RedisTemplate<>();
